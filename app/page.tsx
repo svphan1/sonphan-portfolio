@@ -1,5 +1,6 @@
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
+import { Contact } from "@/components/sections/contact";
 import { Experience } from "@/components/sections/experience";
 import { Hero } from "@/components/sections/hero";
 import { Projects } from "@/components/sections/projects";
@@ -14,6 +15,7 @@ export default function Home() {
         <Skills />
         <Experience />
         <Projects />
+        <Contact />
       </main>
       <SiteFooter />
     </>

@@ -143,4 +143,25 @@ export const siteConfig = {
       },
     ],
   },
+  contact: {
+    eyebrow: "Contact",
+    title: "Have a project or role that fits this kind of work?",
+    summary:
+      "Reach out with context, timeline, and what you are trying to build. Placeholder links are included until your preferred profiles are finalized.",
+    primaryAction: { label: "Email me", href: "mailto:hello@example.com" },
+    details: [
+      {
+        label: "Email",
+        value: "hello@example.com",
+        href: "mailto:hello@example.com",
+      },
+      { label: "Location", value: "United States" },
+      { label: "Availability", value: "Available for select projects" },
+    ],
+    links: [
+      { label: "GitHub", href: "https://github.com/svphan1" },
+      { label: "LinkedIn", href: "#" },
+      { label: "Resume", href: "#" },
+    ],
+  },
 };
