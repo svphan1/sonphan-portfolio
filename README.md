@@ -30,6 +30,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Project Structure
 
 - `app/` - App Router routes, metadata, and global styles
+- `components/layout/` - reusable page shell components
+- `components/sections/` - homepage sections built in reviewable commits
+- `lib/` - typed shared content and configuration
 - `public/` - static assets
 - `eslint.config.mjs` - ESLint configuration for Next.js, TypeScript, and Prettier
 - `postcss.config.mjs` - Tailwind CSS PostCSS setup
