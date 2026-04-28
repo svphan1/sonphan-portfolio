@@ -31,7 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - `app/` - App Router routes, metadata, and global styles
 - `components/layout/` - reusable page shell components
-- `components/sections/` - homepage sections such as Hero, Skills, and Experience
+- `components/sections/` - homepage sections such as Hero, Skills, Experience, and Projects
 - `lib/` - typed shared content and configuration
 - `public/` - static assets
 - `eslint.config.mjs` - ESLint configuration for Next.js, TypeScript, and Prettier

@@ -102,12 +102,45 @@ export const siteConfig = {
       },
     ],
   },
-  upcomingSections: [
-    {
-      id: "projects",
-      title: "Selected projects",
-      description:
-        "Case study cards will lead to deeper project pages as the portfolio grows.",
-    },
-  ],
+  projects: {
+    eyebrow: "Projects",
+    title: "Selected work with room for deeper case studies.",
+    summary:
+      "Placeholder project data for now. The structure supports live links, source links, outcomes, and future case study pages.",
+    items: [
+      {
+        title: "Portfolio Platform",
+        type: "Personal site",
+        description:
+          "A production-oriented portfolio built with Next.js, semantic HTML, accessible sections, and a maintainable content model.",
+        outcome:
+          "Creates a scalable base for case studies, writing, analytics, and future integrations.",
+        technologies: ["Next.js", "TypeScript", "Tailwind CSS", "ESLint"],
+        links: [
+          { label: "Source", href: "#" },
+          { label: "Case study", href: "#" },
+        ],
+      },
+      {
+        title: "Project Case Study Template",
+        type: "Content system",
+        description:
+          "A planned template for documenting product context, technical decisions, tradeoffs, and measurable outcomes.",
+        outcome:
+          "Keeps future project pages consistent and easier to scan for hiring managers.",
+        technologies: ["App Router", "MDX-ready", "SEO", "Structured data"],
+        links: [{ label: "Planned", href: "#" }],
+      },
+      {
+        title: "Frontend Quality System",
+        type: "Engineering workflow",
+        description:
+          "A quality baseline around formatting, linting, accessibility, and build verification for every portfolio change.",
+        outcome:
+          "Reduces regressions and makes each commit reviewable before more complex features are added.",
+        technologies: ["Prettier", "ESLint", "npm scripts", "Git"],
+        links: [{ label: "Review setup", href: "#" }],
+      },
+    ],
+  },
 };
