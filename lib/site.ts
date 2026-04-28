@@ -1,5 +1,6 @@
 export const siteConfig = {
   name: "Son Phan",
+  url: "https://sonphan-portfolio.vercel.app",
   role: "Software Engineer",
   email: "hello@example.com",
   location: "United States",
@@ -165,3 +166,7 @@ export const siteConfig = {
     ],
   },
 };
+
+export function getSiteUrl() {
+  return process.env.NEXT_PUBLIC_SITE_URL ?? siteConfig.url;
+}

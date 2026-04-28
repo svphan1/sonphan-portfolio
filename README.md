@@ -27,6 +27,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `npm run format` - format files with Prettier
 - `npm run format:check` - verify Prettier formatting
 
+## Environment
+
+- `NEXT_PUBLIC_SITE_URL` - canonical production URL used by metadata, sitemap,
+  and robots.txt. Defaults to the current planned Vercel URL in `lib/site.ts`.
+
 ## Project Structure
 
 - `app/` - App Router routes, metadata, and global styles
