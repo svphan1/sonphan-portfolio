@@ -26,13 +26,47 @@ export const siteConfig = {
     { value: "A11y", label: "Accessibility-first UI" },
     { value: "CWV", label: "Performance-minded delivery" },
   ],
+  skills: {
+    eyebrow: "Skills",
+    title: "Practical tools for building and shipping web products.",
+    summary:
+      "Grouped by how the tools contribute to delivery: interface quality, application architecture, backend systems, and engineering workflow.",
+    categories: [
+      {
+        title: "Frontend",
+        description:
+          "Accessible interfaces, component systems, and responsive UI.",
+        skills: [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "HTML",
+          "CSS",
+        ],
+      },
+      {
+        title: "Backend",
+        description:
+          "APIs, data modeling, authentication, and server-side features.",
+        skills: ["Node.js", "Express", "SQL", "REST APIs", "Firebase"],
+      },
+      {
+        title: "Quality",
+        description:
+          "Maintainable code, verification, and production readiness.",
+        skills: [
+          "ESLint",
+          "Prettier",
+          "Jest",
+          "Git",
+          "Accessibility",
+          "Core Web Vitals",
+        ],
+      },
+    ],
+  },
   upcomingSections: [
-    {
-      id: "skills",
-      title: "Technical skills",
-      description:
-        "A concise skills system will group tools by how they support product delivery, not just by category names.",
-    },
     {
       id: "experience",
       title: "Professional experience",
