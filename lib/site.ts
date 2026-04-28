@@ -66,13 +66,43 @@ export const siteConfig = {
       },
     ],
   },
+  experience: {
+    eyebrow: "Experience",
+    title: "Experience shaped around ownership, delivery, and maintainability.",
+    summary:
+      "These are placeholder entries until your real roles are added. The section is structured to emphasize scope, outcomes, and the technologies used.",
+    roles: [
+      {
+        title: "Software Engineer",
+        company: "Product Team",
+        period: "2024 - Present",
+        location: "Remote",
+        summary:
+          "Build and maintain user-facing features with attention to accessibility, performance, and long-term code health.",
+        highlights: [
+          "Implemented reusable React patterns for production interfaces.",
+          "Improved page structure with semantic HTML and accessible interaction states.",
+          "Collaborated across design and engineering to ship practical product improvements.",
+        ],
+        technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      },
+      {
+        title: "Frontend Developer",
+        company: "Web Platform",
+        period: "2022 - 2024",
+        location: "Hybrid",
+        summary:
+          "Delivered responsive web experiences and improved developer workflows for a growing application surface.",
+        highlights: [
+          "Created maintainable UI components backed by shared content models.",
+          "Added linting, formatting, and review practices to reduce implementation drift.",
+          "Partnered with stakeholders to translate requirements into scoped releases.",
+        ],
+        technologies: ["React", "Node.js", "ESLint", "Prettier"],
+      },
+    ],
+  },
   upcomingSections: [
-    {
-      id: "experience",
-      title: "Professional experience",
-      description:
-        "Experience entries will focus on outcomes, scope, and engineering decisions instead of generic job summaries.",
-    },
     {
       id: "projects",
       title: "Selected projects",

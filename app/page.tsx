@@ -1,5 +1,6 @@
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
+import { Experience } from "@/components/sections/experience";
 import { Hero } from "@/components/sections/hero";
 import { Skills } from "@/components/sections/skills";
 import { siteConfig } from "@/lib/site";
@@ -11,6 +12,7 @@ export default function Home() {
       <main id="main-content" className="flex-1">
         <Hero />
         <Skills />
+        <Experience />
         <section className="border-t border-border px-6 py-16">
           <div className="mx-auto w-full max-w-6xl">
             <div className="grid gap-6 md:grid-cols-3">
